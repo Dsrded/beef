@@ -17,8 +17,8 @@ beef:
     # Credentials to authenticate in BeEF.
     # Used by both the RESTful API and the Admin interface
     credentials:
-        user:   "beef"
-        passwd: "beef"
+        user:   "davi"
+        passwd: "1234"
 
     # Interface / IP restrictions
     restrictions:
@@ -130,7 +130,7 @@ beef:
     # to uniquely identify the victims. In this way you can easily associate phishing emails with hooked browser.
     integration:
         phishing_frenzy:
-            enable: false
+            enable: true
 
     # You may override default extension configuration parameters here
     # Note: additional experimental extensions are available in the 'extensions' directory
